@@ -1,0 +1,95 @@
+
+.formTask{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: auto;
+}
+
+form{
+    font-family: Poppins;
+    width: 600px;
+    /* margin:  auto; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+
+form h3{
+    color: rgb(93, 54, 233);;
+}
+
+ h2{
+    font-size: 35px;
+    font-weight: 900;
+    margin: 15px 0;
+    padding: 10px;
+    font-family:  Poppins;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(76, 40, 206); ;
+    /* margin-left: 167px; */
+    /* margin-bottom: -27px; */
+}
+
+form input{
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border-color: none;
+    border: 0.1px solid #ccc;
+    outline: none;
+    /* outline:1px solid rgb(93, 54, 233); */
+}
+form textarea{
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    resize: vertical;
+    /* outline: none; */
+}
+
+form select option{
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border-color: none;
+    border: 0.1px solid #ccc;
+    /* outline: none; */
+}
+
+form select{
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form input:active:hover{
+    border: 0.1px solid rgb(93, 54, 233);
+    outline: 1px solid rgb(93, 54, 233);
+}
+
+form textarea:hover{
+    border: 0.1px solid rgb(93, 54, 233);
+}
+form select:hover{
+    border: 0.1px solid rgb(93, 54, 233);
+}
+form option:hover{
+    border: 0.1px solid rgb(93, 54, 233);
+}
+
+form button{
+    padding: 10px 20px;
+    background: rgb(93, 54, 233);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
